@@ -1,4 +1,4 @@
 cache
-harvest
+harvest/*/*
 httpd-vufind.conf
 README.txt
