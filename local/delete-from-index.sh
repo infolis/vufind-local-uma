@@ -12,8 +12,13 @@ update_solr() {
 }
 
 
-echo "Sending delete request for '$QUERY'"
-update_solr "<delete><query>$QUERY</query></delete>"
+echo "About to delete all documents matching '$QUERY'"
+echo "Please confirm you want to do this [y/n]"
+read yesno
+if [[ "$yesno" == "y" ]];then
+    echo "Sending delete request for '$QUERY'"
+    update_solr "<delete><query>$QUERY</query></delete>"
+    echo "Commit"
+    update_solr '<commit/>'
+fi
 
-echo "Commit"
-update_solr '<commit/>'
