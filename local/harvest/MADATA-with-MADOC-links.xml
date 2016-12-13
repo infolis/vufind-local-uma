@@ -1,0 +1,589 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/oai2.xsl' ?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-01-07T06:58:27Z</responseDate>
+  <request verb="ListRecords" metadataPrefix="oai_dc">https://madata.bib.uni-mannheim.de/cgi/oai2</request>
+  <ListRecords>
+    <record>
+    <header>
+      <identifier>oai:madata.bib.uni-mannheim.de:1</identifier>
+      <datestamp>2013-02-18T07:36:26Z</datestamp>
+      <setSpec>7375626A656374733D303034</setSpec>
+      <setSpec>7375626A656374733D303230</setSpec>
+      <setSpec>74797065733D64617461736574</setSpec></header>
+    <metadata>
+      <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dc:title>Analyse der Tag-Struktur in Bibsonomy</dc:title>
+        <dc:creator>Hänger, Christian</dc:creator>
+        <dc:creator>Krätzsch, Christine</dc:creator>
+        <dc:creator>Niemann, Christof</dc:creator>
+        <dc:subject>004 Computer science, internet</dc:subject>
+        <dc:subject>020 Library and information sciences</dc:subject>
+        <dc:description>In der Studie wird die linguistische Struktur der Tags des frei zugänglichen Tagging-Portals BibSonomy (http://www.bibsonomy.org) untersucht, das von der Universität Kassel betrieben wird.&lt;br /&gt;&lt;br /&gt;Für die Analyse der aus unterschiedlichen Zeichenfolgen bestehenden Tag-Daten (samt Nutzungsdaten und Informationen zur jeweils getaggten Quelle) wurde in Ermangelung vorhandener Ansätze ein speziell zugeschnittenes Analyseverfahren entwickelt. Die Tags wurden bezüglich der verwendeten Schriftsätze bereinigt und von etlichen Sonderzeichen befreit. Durch ein sogenanntes Part-of-Speech Tagging wurde die Datenmenge in Subgruppen geteilt und somit ihre Handhabung stark vereinfacht. Innerhalb dieses Analyseschrittes konnten über einen Wörterbuchvergleich und verschiedene Heuristiken die Wortarten und Grundformen von etwa einem Drittel der Tags ermittelt werden. Ein weiteres Drittel bestand aus Zeichenfolgen, die durch bestimmte Trennzeichen aneinandergereiht wurden, während ein letztes Drittel überhaupt nicht zugeordnet werden konnte. Die überwiegende Mehrheit der Tags lag in deutscher oder englischer Sprache vor.</dc:description>
+        <dc:date>2010-10-31</dc:date>
+        <dc:type>Dataset</dc:type>
+        <dc:type>NonPeerReviewed</dc:type>
+        <dc:format>csv</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/1/1/BibSo_Ergebnisse_09-07-01.xls</dc:identifier>
+        <dc:format>text</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/1/3/TagAnalyse.pdf</dc:identifier>
+        <dc:format>csv</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/1/4/Unknown_ohne_EN_D_WK_7undgroe%C3%9Fer.xls</dc:identifier>
+        <dc:identifier>  Hänger, Christian and Krätzsch, Christine and Niemann, Christof  (2010) Analyse der Tag-Struktur in Bibsonomy.  [Dataset]   </dc:identifier>
+        <dc:pubLink>https://ub-madoc.bib.uni-mannheim.de/id/eprint/26390</dc:pubLink>
+        <dc:pubLink>https://ub-madoc.bib.uni-mannheim.de/id/eprint/2103</dc:pubLink>
+        <dc:relation>https://madata.bib.uni-mannheim.de/1/</dc:relation></oai_dc:dc></metadata></record>
+    <record>
+    <header>
+      <identifier>oai:madata.bib.uni-mannheim.de:2</identifier>
+      <datestamp>2013-07-17T10:47:24Z</datestamp>
+      <setSpec>7375626A656374733D303230</setSpec>
+      <setSpec>74797065733D64617461736574</setSpec></header>
+    <metadata>
+      <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dc:title>E-Book-Umfrage an der UB Mannheim 2010 - Fragebogen und Ergebnisdatensatz</dc:title>
+        <dc:creator>Kaiser, Jessica</dc:creator>
+        <dc:creator>Klein, Annette</dc:creator>
+        <dc:subject>020 Library and information sciences</dc:subject>
+        <dc:description>Die Umfrage wurde mit der Software Limesurvey online mit einer Laufzeit von etwa einem Monat (02.-31.12.2010) durchgeführt und im Weblog der UB, durch Flyer sowie über die Fachreferenten beworben. Als Teilnahmeanreiz wurden außerdem ein E-Book-Reader sowie zwei T-Shirts unter den Umfrageteilnehmern verlost. Die bis dato bekannten Nutzer von Dawsonera wurden per Mail gebeten, sich an der Umfrage zu beteiligen.&#13;
+&#13;
+Der Fragebogen ist als grafisches Abbild der Online-Eingabemasken der Original-Umfrage hinterlegt. Die Ergebnisdatei besteht in einem csv-Export der in Limesurvey gespeicherten Antworten. In den Spaltenköpfen ist die Nummer der Frage (entsprechend der Zählung im Fragebogen) angegeben, danach ggf. in eckigen Klammern der Text der Antwortoption. Bei Multiple Choice-Fragen wird eine ausgewählte Option in den Daten mit "Ja" wiedergegeben, eine nicht ausgewählte Option mit "Nein". Ansonsten werden die ausgewählten Skalenwerte aufgeführte (vgl. Fragebogen). Nur bei Frage 21 (Nr. 201 im Datensatz) konnte ein Freitext eingegeben werden. Namen und Kontaktdaten, die freiwillig angegeben werden konnten, wurden aus den Ergebnisdaten entfernt.</dc:description>
+        <dc:date>2011-01-22</dc:date>
+        <dc:type>Dataset</dc:type>
+        <dc:type>NonPeerReviewed</dc:type>
+        <dc:format>text</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/2/2/Ebookumfrage_Fragebogen.pdf</dc:identifier>
+        <dc:format>csv</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/2/1/Ebookumfrage.csv</dc:identifier>
+        <dc:identifier>  Kaiser, Jessica and Klein, Annette  (2011) E-Book-Umfrage an der UB Mannheim 2010 - Fragebogen und Ergebnisdatensatz.  [Dataset]   </dc:identifier>
+        <dc:pubLink>https://ub-madoc.bib.uni-mannheim.de/id/eprint/33134</dc:pubLink>
+        <dc:relation>https://madata.bib.uni-mannheim.de/2/</dc:relation></oai_dc:dc></metadata></record>
+    <record>
+    <header>
+      <identifier>oai:madata.bib.uni-mannheim.de:23</identifier>
+      <datestamp>2013-05-08T12:12:29Z</datestamp>
+      <setSpec>7375626A656374733D303034</setSpec>
+      <setSpec>74797065733D64617461736574</setSpec></header>
+    <metadata>
+      <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dc:title>Evaluation measures for ontology matchers in supervised matching scenarios</dc:title>
+        <dc:creator>Ritze, Dominique</dc:creator>
+        <dc:creator>Paulheim, Heiko</dc:creator>
+        <dc:creator>Eckert, Kai</dc:creator>
+        <dc:subject>004 Computer science, internet</dc:subject>
+        <dc:description>Precision and Recall, as well as their combination in terms of FMeasure,are widely used measures in computer science and generally used to evaluate the overall performance of ontology matchers in fully automatic, unsupervised scenarios. In this paper, we investigate the case of supervised matching,where automatically created ontology alignments are verified by an expert. We motivate and describe this use case and its characteristics and discuss why traditional, F-measure based evaluation measures are not suitable to choose the best matching system for this task. Therefore, we investigate several alternative evaluation measures and propose the use of Precision@N curves as a means to assess different matching systems for supervised matching. We compare the ranking of&#13;
+ontology matchers from the last OAEI campaign using Precision@N curves to the traditional F-measure based ranking, and discuss means to combine matchers in a way that optimizes the user support in supervised ontology matching.</dc:description>
+        <dc:date>2013-05-07</dc:date>
+        <dc:type>Dataset</dc:type>
+        <dc:type>NonPeerReviewed</dc:type>
+        <dc:format>archive</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/23/1/RScriptsData.zip</dc:identifier>
+        <dc:format>archive</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/23/2/src.zip</dc:identifier>
+        <dc:format>archive</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/23/3/Application.zip</dc:identifier>
+        <dc:format>text</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/23/4/README.txt</dc:identifier>
+        <dc:identifier>  Ritze, Dominique and Paulheim, Heiko and Eckert, Kai  (2013) Evaluation measures for ontology matchers in supervised matching scenarios.  [Dataset]   </dc:identifier>
+        <dc:pubLink>http://link.springer.com/chapter/10.1007%2F978-3-642-41338-4_25</dc:pubLink>
+        <dc:relation>https://madata.bib.uni-mannheim.de/23/</dc:relation></oai_dc:dc></metadata></record>
+    <record>
+    <header>
+      <identifier>oai:madata.bib.uni-mannheim.de:28</identifier>
+      <datestamp>2013-09-03T13:12:58Z</datestamp>
+      <setSpec>7375626A656374733D303230</setSpec>
+      <setSpec>7375626A656374733D363530</setSpec>
+      <setSpec>74797065733D64617461736574</setSpec></header>
+    <metadata>
+      <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dc:title>Benutzerumfrage der Universitätsbibliothek Mannheim 2012 - Fragebogen und Antwortdaten </dc:title>
+        <dc:creator>Schumm, Irene</dc:creator>
+        <dc:subject>020 Library and information sciences</dc:subject>
+        <dc:subject>650 Management</dc:subject>
+        <dc:description>Zwischen dem 12.3.2012 und dem 8.4.2012 führte die Universitätsbibliothek Mannheim eine Online-Benutzerumfrage durch. Der Umfragebogen wurde mit Hilfe der Software Limesurvey auf Deutsch und auf Englisch umgesetzt und im Internet frei zugänglich gemacht. Umfrageteilnehmer konnten an einem Gewinnspiel teilnehmen, bei dem Spirit-T-Shirts und Musik-CDs der Universität Mannheim aus dem Campus-Shop der Universität Mannheim, Eintrittskarten für die Reiss-Engelhorn-Museen, Eintrittskarten für das NATIONALTHEATER MANNHEIM, ein Tablet-PC als Hauptpreis sowie - in drei Zwischenverlosungen - Eintrittskarten für das TECHNOSEUM verlost wurden.&#13;
+Die Umfrage wurde beworben über das Blog und den Newsletter der Universitätsbibliothek, Fakultätsnewsletter, Newsletter an alle Studierende, Plakate, Flyer, Bibliotheksmitarbeiter sowie Quittungsausdrucke der UB.&#13;
+Der Fragebogen ist als PDF-Datei hinterlegt, aus der auch die bedingten Fragen ersichtlich werden.&#13;
+Der Antwortdatensatz ist als csv-Datei hinterlegt und enthält die Daten der 1.802 Teilnehmer, welche die Umfrage vollständig abgeschlossen haben. Vorgegebene, codierte Antworten sind sofort abrufbar.&#13;
+Die gestellten Fragen samt Antwortmöglichkeit sind spaltenweise hinterlegt. In den verschiedenen Zeilen schließlich sind die gegebenen Antworten dokumentiert, die als Skalenwerte vorgegeben waren.&#13;
+Bei Multiple-Choice-Fragen sind die ausgewählten Optionen mit "Ja" codiert, die nicht ausgewählten Optionen dagegen mit "keine Angabe". Bei kontextabhägen Fragen ist als Antwort stets "NA" hinterlegt, wenn diese dem Teilnehmer nicht angezeigt wurden.&#13;
+Freie Kommentare können dagegen nur eingeschränkt zugänglich gemacht werden, bei Interesse wenden Sie sich bitte an die angegebene Kontaktperson.</dc:description>
+        <dc:date>2013-05-29</dc:date>
+        <dc:type>Dataset</dc:type>
+        <dc:type>NonPeerReviewed</dc:type>
+        <dc:format>csv</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/28/13/Benutzerumfrage2012KommentareUBMA.csv</dc:identifier>
+        <dc:format>csv</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/28/14/Benutzerumfrage_UBMannheim_2012.csv</dc:identifier>
+        <dc:format>text</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/28/15/Library_survey_2012_questions.pdf</dc:identifier>
+        <dc:format>text</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/28/16/Benutzerumfrage_2012_Fragebogen.pdf</dc:identifier>
+        <dc:identifier>  Schumm, Irene  (2013) Benutzerumfrage der Universitätsbibliothek Mannheim 2012 - Fragebogen und Antwortdaten.  [Dataset]   </dc:identifier>
+        <dc:pubLink>https://ub-madoc.bib.uni-mannheim.de/id/eprint/33216</dc:pubLink>
+        <dc:relation>https://madata.bib.uni-mannheim.de/28/</dc:relation></oai_dc:dc></metadata></record>
+    <record>
+    <header>
+      <identifier>oai:madata.bib.uni-mannheim.de:57</identifier>
+      <datestamp>2014-02-21T08:35:05Z</datestamp>
+      <setSpec>7375626A656374733D303034</setSpec>
+      <setSpec>74797065733D64617461736574</setSpec></header>
+    <metadata>
+      <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dc:title>A Gold Standard of Meaningful Compounds in&#13;
+Complex Class Labels</dc:title>
+        <dc:creator>Stuckenschmidt, Heiner</dc:creator>
+        <dc:creator>Ponzetto, Simone Paolo</dc:creator>
+        <dc:creator>Meilicke, Christian</dc:creator>
+        <dc:subject>004 Computer science, internet</dc:subject>
+        <dc:description>The dataset comprises the Gold Standard created for evaluating the experiments conducted for the Paper "Detecting Meaningful Compounds in&#13;
+Complex Class Labels", which has been submitted to ESWC 2014. Addditional experimental results and further information are available here:&#13;
+https://madata.bib.uni-mannheim.de/67/.&#13;
+&#13;
+</dc:description>
+        <dc:date>2014-01-13</dc:date>
+        <dc:type>Dataset</dc:type>
+        <dc:type>NonPeerReviewed</dc:type>
+        <dc:format>text</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/57/1/gold-standard.txt</dc:identifier>
+        <dc:identifier>  Stuckenschmidt, Heiner and Ponzetto, Simone Paolo and Meilicke, Christian  (2014) A Gold Standard of Meaningful Compounds in Complex Class Labels.  [Dataset]   </dc:identifier>
+        <dc:relation>https://madata.bib.uni-mannheim.de/57/</dc:relation></oai_dc:dc></metadata></record>
+    <record>
+    <header>
+      <identifier>oai:madata.bib.uni-mannheim.de:60</identifier>
+      <datestamp>2014-02-26T10:32:30Z</datestamp>
+      <setSpec>7375626A656374733D313530</setSpec>
+      <setSpec>7375626A656374733D363030</setSpec>
+      <setSpec>74797065733D64617461736574</setSpec></header>
+    <metadata>
+      <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dc:title>Effects of Cultural Intelligence in Cross-Cultural Virtual Collaboration - Experimental data</dc:title>
+        <dc:creator>Li, Ye</dc:creator>
+        <dc:subject>150 Psychology</dc:subject>
+        <dc:subject>600 Technology</dc:subject>
+        <dc:description>People from different countries are increasingly working together with the sup-port of information and communication technologies. Such cross-cultural virtual collaboration is highly challenging due to the geographical separation and cultural diversity among collaborators. This study investigates the effects of an individual capability, cultural intelligence, on cross-cultural virtual collaboration processes in a controlled experiment. Thirty-five cross-cultural virtual dyads were formed and instructed to collaborate in a proposal writing task. Their interaction processes were analyzed with Bales’ Interaction Process Analysis. The results suggest that individuals with higher CQ demonstrated more positive reactions and attempted answers in the cross-cultural virtual collaboration after controlling for foreign language proficiency. The increased amounts of the two categories of interaction acts led to improved peer satisfaction. The study links CQ with proximal behavioral outcomes and identifies CQ as a key individual capability that predicts behaviors and affective outcomes in cross-cultural virtual collaboration.  </dc:description>
+        <dc:date>2014-01-23</dc:date>
+        <dc:type>Dataset</dc:type>
+        <dc:type>NonPeerReviewed</dc:type>
+        <dc:identifier>  Li, Ye  (2014) Effects of Cultural Intelligence in Cross-Cultural Virtual Collaboration - Experimental data.  [Dataset]   </dc:identifier>
+        <dc:pubLink>https://ub-madoc.bib.uni-mannheim.de/id/eprint/32983</dc:pubLink>
+        <dc:pubLink>https://ub-madoc.bib.uni-mannheim.de/id/eprint/31487</dc:pubLink>
+        <dc:relation>https://madata.bib.uni-mannheim.de/60/</dc:relation></oai_dc:dc></metadata></record>
+    <record>
+    <header>
+      <identifier>oai:madata.bib.uni-mannheim.de:61</identifier>
+      <datestamp>2014-02-21T08:49:26Z</datestamp>
+      <setSpec>7375626A656374733D363030</setSpec>
+      <setSpec>7375626A656374733D363530</setSpec>
+      <setSpec>74797065733D64617461736574</setSpec></header>
+    <metadata>
+      <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dc:title>Formulating Effective Coordination Strategies in Agile Global Software Development Teams - Interview transcripts</dc:title>
+        <dc:creator>Li, Ye</dc:creator>
+        <dc:subject>600 Technology</dc:subject>
+        <dc:subject>650 Management</dc:subject>
+        <dc:description>Coordination of interdependent tasks across geographical, temporal and socio-cultural boundaries has been identified as a critical antecedent to global software development (GSD) team performance. Since GSD teams are increasingly required to achieve software development agility and respond to changing business requirements, conventional plan-driven software development methods become inadequate to manage the cross-boundary dependencies. To cope with this issue, there is an emerging trend of implementing change-driven agile methods in GSD; we call this practice agile GSD. This paper focuses on the formulation of coordination strategies in agile GSD. We argue that Coordination Theory (CT) can serve as a useful lens to develop a deeper understanding of the formulation process. We present a case study in a leading software development company using agile GSD and present preliminary results by applying the lens of CT.</dc:description>
+        <dc:date>2014-01-23</dc:date>
+        <dc:type>Dataset</dc:type>
+        <dc:type>NonPeerReviewed</dc:type>
+        <dc:identifier>  Li, Ye  (2014) Formulating Effective Coordination Strategies in Agile Global Software Development Teams - Interview transcripts.  [Dataset]   </dc:identifier>
+        <dc:pubLink>https://ub-madoc.bib.uni-mannheim.de/id/eprint/32481</dc:pubLink>
+        <dc:relation>https://madata.bib.uni-mannheim.de/61/</dc:relation></oai_dc:dc></metadata></record>
+    <record>
+    <header>
+      <identifier>oai:madata.bib.uni-mannheim.de:62</identifier>
+      <datestamp>2014-02-21T08:42:52Z</datestamp>
+      <setSpec>7375626A656374733D363030</setSpec>
+      <setSpec>7375626A656374733D363530</setSpec>
+      <setSpec>74797065733D64617461736574</setSpec></header>
+    <metadata>
+      <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dc:title>Effects of process ambidexterity on coordination and outcomes in software project teams - surevy data</dc:title>
+        <dc:creator>Li, Ye</dc:creator>
+        <dc:subject>600 Technology</dc:subject>
+        <dc:subject>650 Management</dc:subject>
+        <dc:description>This data set was collected in a survey study on the effects of process alignment and process agility on coordination and outcomes in software project teams.  </dc:description>
+        <dc:date>2014-01-23</dc:date>
+        <dc:type>Dataset</dc:type>
+        <dc:type>NonPeerReviewed</dc:type>
+        <dc:identifier>  Li, Ye  (2014) Effects of process ambidexterity on coordination and outcomes in software project teams - surevy data.  [Dataset]   </dc:identifier>
+        <dc:relation>https://madata.bib.uni-mannheim.de/62/</dc:relation></oai_dc:dc></metadata></record>
+    <record>
+    <header>
+      <identifier>oai:madata.bib.uni-mannheim.de:65</identifier>
+      <datestamp>2014-11-14T10:17:16Z</datestamp>
+      <setSpec>7375626A656374733D303034</setSpec>
+      <setSpec>74797065733D64617461736574</setSpec></header>
+    <metadata>
+      <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dc:title>Integrating Open and Closed Information Extraction: Challenges and First Steps</dc:title>
+        <dc:creator>Dutta, Arnab</dc:creator>
+        <dc:creator>Meilicke, Christian</dc:creator>
+        <dc:creator>Niepert, Matthias</dc:creator>
+        <dc:creator>Ponzetto, Simone Paolo</dc:creator>
+        <dc:subject>004 Computer science, internet</dc:subject>
+        <dc:description>Goldstandard for Nell to DBpedia mapping (Subject and Object)&#13;
+</dc:description>
+        <dc:date>2013-11-05</dc:date>
+        <dc:type>Dataset</dc:type>
+        <dc:type>NonPeerReviewed</dc:type>
+        <dc:format>archive</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/65/1/NellDBpediaMappings.zip</dc:identifier>
+        <dc:identifier>  Dutta, Arnab and Meilicke, Christian and Niepert, Matthias and Ponzetto, Simone Paolo  (2013) Integrating Open and Closed Information Extraction: Challenges and First Steps.  [Dataset]   </dc:identifier>
+        <dc:pubLink>https://ub-madoc.bib.uni-mannheim.de/id/eprint/35518</dc:pubLink>
+        <dc:pubLink>https://ub-madoc.bib.uni-mannheim.de/id/eprint/36461</dc:pubLink>
+        <dc:pubLink>https://ub-madoc.bib.uni-mannheim.de/id/eprint/36671</dc:pubLink>
+        <dc:relation>https://madata.bib.uni-mannheim.de/65/</dc:relation></oai_dc:dc></metadata></record>
+    <record>
+    <header>
+      <identifier>oai:madata.bib.uni-mannheim.de:67</identifier>
+      <datestamp>2014-02-21T08:38:35Z</datestamp>
+      <setSpec>7375626A656374733D303034</setSpec>
+      <setSpec>74797065733D64617461736574</setSpec></header>
+    <metadata>
+      <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dc:title>Detecting Meaningful Compounds in Complex Class Labels (Experimental Results)</dc:title>
+        <dc:creator>Meilicke, Christian</dc:creator>
+        <dc:subject>004 Computer science, internet</dc:subject>
+        <dc:description>This dataset is related to the paper "Detecting Meaningful Compounds in Complex Class Labels" (Stuckenschmidt et al.).&#13;
+&#13;
+It is an extension of the dataset available at https://madata.bib.uni-mannheim.de/57/ where the Gold Standard is available for download.&#13;
+&#13;
+This dataset contains the raw results of the experiments, which contains information on the different features, as well as the Rapid Miner Workflows.&#13;
+</dc:description>
+        <dc:date>2014-02-19</dc:date>
+        <dc:type>Dataset</dc:type>
+        <dc:type>NonPeerReviewed</dc:type>
+        <dc:format>csv</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/67/1/ClassificationResults.xlsx</dc:identifier>
+        <dc:format>archive</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/67/2/RapidMiner.zip</dc:identifier>
+        <dc:identifier>  Meilicke, Christian  (2014) Detecting Meaningful Compounds in Complex Class Labels (Experimental Results).  [Dataset]   </dc:identifier>
+        <dc:pubLink>https://ub-madoc.bib.uni-mannheim.de/id/eprint/35518</dc:pubLink>
+        <dc:pubLink>https://ub-madoc.bib.uni-mannheim.de/id/eprint/36461</dc:pubLink>
+        <dc:pubLink>https://ub-madoc.bib.uni-mannheim.de/id/eprint/36671</dc:pubLink>
+        <dc:relation>https://madata.bib.uni-mannheim.de/67/</dc:relation></oai_dc:dc></metadata></record>
+    <record>
+    <header>
+      <identifier>oai:madata.bib.uni-mannheim.de:68</identifier>
+      <datestamp>2014-06-16T13:11:19Z</datestamp>
+      <setSpec>7375626A656374733D363530</setSpec>
+      <setSpec>74797065733D74657874</setSpec></header>
+    <metadata>
+      <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dc:title>Interview Data for the following study: Hadasch, F., Mueller, B., &amp; Maedche, A. (2012). Exploring antecedent environmental and organizational factors to user-caused information leaks: A qualitative study. Proceedings of the 20th European Conference on Information Systems.</dc:title>
+        <dc:creator>Hadasch, Frank</dc:creator>
+        <dc:subject>650 Management</dc:subject>
+        <dc:description>Sensitive company information can leak to unauthorized parties in case employees do not perform effective protective measures while using application systems for their day-to-day tasks. To reduce the risks for such information leakage incidents, many companies require their employees to follow information systems (IS) security policies and promote awareness programs to increase IS security awareness. The design of effective IS security awareness approaches is addressed by existing research. However, understanding how environmental and organizational factors influence organizations individuals’ IS security awareness is limited. Using grounded theory as qualitative research approach we collect empirical data from 22 informants. The interview data of company outsiders and company insiders is analyzed to identify contextual factors and explain associations among them. Our stated propositions help to understand why individuals in one organization are well aware of IS security threats and policies, while another organization’s individuals have a lower level of IS security awareness.</dc:description>
+        <dc:date>2012-09-01</dc:date>
+        <dc:type>Text</dc:type>
+        <dc:type>NonPeerReviewed</dc:type>
+        <dc:format>archive</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/68/2/Hadasch_ea_2012_InterviewData_2014_05_25.zip</dc:identifier>
+        <dc:identifier>  Hadasch, Frank  (2012) Interview Data for the following study: Hadasch, F., Mueller, B., &amp; Maedche, A. (2012). Exploring antecedent environmental and organizational factors to user-caused information leaks: A qualitative study. Proceedings of the 20th European Conference on Information Systems.  [Text]   </dc:identifier>
+        <dc:pubLink>https://ub-madoc.bib.uni-mannheim.de/id/eprint/31471</dc:pubLink>
+        <dc:pubLink>https://ub-madoc.bib.uni-mannheim.de/id/eprint/36139</dc:pubLink>
+        <dc:relation>https://madata.bib.uni-mannheim.de/68/</dc:relation></oai_dc:dc></metadata></record>
+    <record>
+    <header>
+      <identifier>oai:madata.bib.uni-mannheim.de:71</identifier>
+      <datestamp>2014-06-16T13:28:06Z</datestamp>
+      <setSpec>7375626A656374733D363530</setSpec>
+      <setSpec>74797065733D64617461736574</setSpec></header>
+    <metadata>
+      <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dc:title>Survey-Based Experiment Data</dc:title>
+        <dc:creator>Hadasch, Frank</dc:creator>
+        <dc:subject>650 Management</dc:subject>
+        <dc:description>Survey-Based Experiment</dc:description>
+        <dc:date>2013</dc:date>
+        <dc:type>Dataset</dc:type>
+        <dc:type>NonPeerReviewed</dc:type>
+        <dc:format>csv</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/71/1/SurveyBasedExperiment_Data.xlsx</dc:identifier>
+        <dc:identifier>  Hadasch, Frank  (2013) Survey-Based Experiment Data.  [Dataset]   </dc:identifier>
+        <dc:pubLink>https://ub-madoc.bib.uni-mannheim.de/id/eprint/36139</dc:pubLink>
+        <dc:relation>https://madata.bib.uni-mannheim.de/71/</dc:relation></oai_dc:dc></metadata></record>
+    <record>
+    <header>
+      <identifier>oai:madata.bib.uni-mannheim.de:72</identifier>
+      <datestamp>2014-06-16T13:28:28Z</datestamp>
+      <setSpec>7375626A656374733D363530</setSpec>
+      <setSpec>74797065733D64617461736574</setSpec></header>
+    <metadata>
+      <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dc:title>Field Experiment Data</dc:title>
+        <dc:creator>Hadasch, Frank</dc:creator>
+        <dc:subject>650 Management</dc:subject>
+        <dc:description>Field Experiment</dc:description>
+        <dc:date>2013</dc:date>
+        <dc:type>Dataset</dc:type>
+        <dc:type>NonPeerReviewed</dc:type>
+        <dc:format>csv</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/72/1/FieldExperiment_Data.xlsx</dc:identifier>
+        <dc:identifier>  Hadasch, Frank  (2013) Field Experiment Data.  [Dataset]   </dc:identifier>
+        <dc:pubLink>https://ub-madoc.bib.uni-mannheim.de/id/eprint/36139</dc:pubLink>
+        <dc:relation>https://madata.bib.uni-mannheim.de/72/</dc:relation></oai_dc:dc></metadata></record>
+    <record>
+    <header>
+      <identifier>oai:madata.bib.uni-mannheim.de:73</identifier>
+      <datestamp>2014-06-16T13:28:52Z</datestamp>
+      <setSpec>7375626A656374733D363530</setSpec>
+      <setSpec>74797065733D64617461736574</setSpec></header>
+    <metadata>
+      <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dc:title>Lab Experiment Data</dc:title>
+        <dc:creator>Hadasch, Frank</dc:creator>
+        <dc:subject>650 Management</dc:subject>
+        <dc:description>Lab Experiment Data</dc:description>
+        <dc:date>2013</dc:date>
+        <dc:type>Dataset</dc:type>
+        <dc:type>NonPeerReviewed</dc:type>
+        <dc:format>csv</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/73/1/LabExperiment_Data.xlsx</dc:identifier>
+        <dc:identifier>  Hadasch, Frank  (2013) Lab Experiment Data.  [Dataset]   </dc:identifier>
+        <dc:pubLink>https://ub-madoc.bib.uni-mannheim.de/id/eprint/36139</dc:pubLink>
+        <dc:relation>https://madata.bib.uni-mannheim.de/73/</dc:relation></oai_dc:dc></metadata></record>
+    <record>
+    <header>
+      <identifier>oai:madata.bib.uni-mannheim.de:74</identifier>
+      <datestamp>2014-02-28T07:51:12Z</datestamp>
+      <setSpec>7375626A656374733D363030</setSpec>
+      <setSpec>7375626A656374733D363230</setSpec>
+      <setSpec>7375626A656374733D363530</setSpec>
+      <setSpec>74797065733D64617461736574</setSpec></header>
+    <metadata>
+      <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dc:title>Cross-Functional Integration of Product Management and Product Design in Application Software Development: Exploration of Success Factors - Interview Transcripts</dc:title>
+        <dc:creator>Meth, Hendrik</dc:creator>
+        <dc:creator>Kahrau, Felix</dc:creator>
+        <dc:subject>600 Technology</dc:subject>
+        <dc:subject>620 Engineering</dc:subject>
+        <dc:subject>650 Management</dc:subject>
+        <dc:description>The industrialization of application software development is a key trend in the software industry. One important element of industrialized development processes is the introduction of a division of work with specialized competencies. Cross-functional integration is a fundamental and well established concept in product development. Its potential has also been recognized in application software development. Many enterprise application software vendors have established product management to complement software development from a business perspective, while R&amp;D primarily focuses on technology aspects. Due to the growing significance of usability and user experience, the product design function has become increasingly important for application software development. However, there is little empirical work concerning cross-functional integration of product management and product design in application software development. The work presented in this paper explores success factors of this cross-functional integration.</dc:description>
+        <dc:date>2011</dc:date>
+        <dc:type>Dataset</dc:type>
+        <dc:type>NonPeerReviewed</dc:type>
+        <dc:format>archive</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/74/1/2011_CFI_Interview_Transcripts.zip</dc:identifier>
+        <dc:identifier>  Meth, Hendrik and Kahrau, Felix  (2011) Cross-Functional Integration of Product Management and Product Design in Application Software Development: Exploration of Success Factors - Interview Transcripts.  [Dataset]   </dc:identifier>
+        <dc:pubLink>https://ub-madoc.bib.uni-mannheim.de/id/eprint/29687</dc:pubLink>
+        <dc:relation>https://madata.bib.uni-mannheim.de/74/</dc:relation></oai_dc:dc></metadata></record>
+    <record>
+    <header>
+      <identifier>oai:madata.bib.uni-mannheim.de:75</identifier>
+      <datestamp>2014-02-28T07:03:13Z</datestamp>
+      <setSpec>7375626A656374733D363030</setSpec>
+      <setSpec>7375626A656374733D363230</setSpec>
+      <setSpec>7375626A656374733D363530</setSpec>
+      <setSpec>74797065733D64617461736574</setSpec></header>
+    <metadata>
+      <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dc:title>Cross-Functional Integration of Product Management and Product Design in Application Software Development: Exploration of Success Factors - Survey Data</dc:title>
+        <dc:creator>Botzenhardt, Achim</dc:creator>
+        <dc:subject>600 Technology</dc:subject>
+        <dc:subject>620 Engineering</dc:subject>
+        <dc:subject>650 Management</dc:subject>
+        <dc:description>The industrialization of application software development is a key trend in the software industry. One important element of industrialized development processes is the introduction of a division of work with specialized competencies. Cross-functional integration is a fundamental and well established concept in product development. Its potential has also been recognized in application software development. Many enterprise application software vendors have established product management to complement software development from a business perspective, while R&amp;D primarily focuses on technology aspects. Due to the growing significance of usability and user experience, the product design function has become increasingly important for application software development. However, there is little empirical work concerning cross-functional integration of product management and product design in application software development. The work presented in this paper explores success factors of this cross-functional integration.</dc:description>
+        <dc:date>2011</dc:date>
+        <dc:type>Dataset</dc:type>
+        <dc:type>NonPeerReviewed</dc:type>
+        <dc:format>other</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/75/1/2011_CFI_Survey_Data.sav</dc:identifier>
+        <dc:identifier>  Botzenhardt, Achim  (2011) Cross-Functional Integration of Product Management and Product Design in Application Software Development: Exploration of Success Factors - Survey Data.  [Dataset]   </dc:identifier>
+        <dc:pubLink>https://ub-madoc.bib.uni-mannheim.de/id/eprint/29687</dc:pubLink>
+        <dc:relation>https://madata.bib.uni-mannheim.de/75/</dc:relation></oai_dc:dc></metadata></record>
+    <record>
+    <header>
+      <identifier>oai:madata.bib.uni-mannheim.de:76</identifier>
+      <datestamp>2014-04-02T09:37:54Z</datestamp>
+      <setSpec>7375626A656374733D363030</setSpec>
+      <setSpec>7375626A656374733D363230</setSpec>
+      <setSpec>74797065733D64617461736574</setSpec></header>
+    <metadata>
+      <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dc:title>Form and function - designing successful mobile data services - Survey Data&#13;
+</dc:title>
+        <dc:creator>Botzenhardt, Achim</dc:creator>
+        <dc:subject>600 Technology</dc:subject>
+        <dc:subject>620 Engineering</dc:subject>
+        <dc:description>Mobile devices, along with mobile data services (MDS), have become powerful attendants in our daily life. Starting with simple communication services, MDS now offer a solution for almost every demand in private and business life. The market for MDS has become very competitive and is creating pressure on MDS providers with continuously increasing consumer demands. Recently, design has received much attention, since it provides vast opportunities for differentiating offerings and gaining competitive advantage. However, there is often semantic confusion when it comes to the concrete application of design. Based on the theoretical integration of user satisfaction and technology acceptance of Wixom and Todd (2005) and by conceptualizing form and function as the two major components of design, we propose a theoretical model that specifically investigates which MDS design characteristics influence consumers’ perception and behavioral intention. We empirically tested our model with partial least square (PLS) analysis, based on a sample of 2,295 responses from MDS users in the mobile banking context. The findings reveal that both components of design – form and function – were positively associated with satisfaction. The relationship between form and satisfaction was moderated by MDS consumer age and MDS usage frequency.</dc:description>
+        <dc:date>2014</dc:date>
+        <dc:type>Dataset</dc:type>
+        <dc:type>NonPeerReviewed</dc:type>
+        <dc:format>other</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/76/1/2013_MDS_Survey_Data.sav</dc:identifier>
+        <dc:identifier>  Botzenhardt, Achim  (2014) Form and function - designing successful mobile data services - Survey Data.  [Dataset]   </dc:identifier>
+        <dc:relation>https://madata.bib.uni-mannheim.de/76/</dc:relation></oai_dc:dc></metadata></record>
+    <record>
+    <header>
+      <identifier>oai:madata.bib.uni-mannheim.de:80</identifier>
+      <datestamp>2014-03-25T09:44:24Z</datestamp>
+      <setSpec>7375626A656374733D303034</setSpec>
+      <setSpec>7375626A656374733D303230</setSpec>
+      <setSpec>7375626A656374733D363530</setSpec>
+      <setSpec>74797065733D64617461736574</setSpec></header>
+    <metadata>
+      <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dc:title>Exploring Principles of User-Centered Agile Software Development: A Literature Review</dc:title>
+        <dc:creator>Brhel, Manuel</dc:creator>
+        <dc:subject>004 Computer science, internet</dc:subject>
+        <dc:subject>020 Library and information sciences</dc:subject>
+        <dc:subject>650 Management</dc:subject>
+        <dc:description>Context: Software development has been characterized by two major approaches in the last decade: Agile Software Development aiming at increased velocity and flexibility during the development process and User-Centered Design putting the goals and needs of the system’s end-users in the development focus to deliver software with appropriate usability. Hybrid development models, summarized as User-Centered Agile Software Development (UCASD) in this article, propose to combine the merits of both approaches to design software that is both useful and usable.&#13;
+&#13;
+Objective: This paper aims at capturing the current state of the art in UCASD approaches and deriving generic principles from these approaches. More specifically, we are investigating the following research question: Which principles constitute a user-centered agile software development approach?&#13;
+&#13;
+Method: A systematic review of the literature in UCASD is performed. Identified works are analyzed using a coding scheme that differentiates four integration levels: process, practices, people and technology. Through subsequent synthesis of the identified codes, generic principles of UCASD are derived.&#13;
+&#13;
+Results: We identified and analyzed 83 relevant publications. The analysis resulted in a differentiated coding system and five principles for UCASD: (1) Separate Product Discovery and Product Creation, (2) Iterative and Incremental Design and Development, (3) Parallel Interwoven Creation Tracks, (4) Continuous Stakeholder Involvement, and (5) Artifact-Mediated Communication.&#13;
+&#13;
+Conclusion: Through the results of our paper, we intend to contribute to the Software Development body of knowledge by (1) providing a broad overview of existing works in the area of UCASD, (2) deriving an analysis framework (in form a coding system) for works in this area, going beyond former classifications, and (3) identifying generic principles of UCASD and associating them with specific practices and processes. &#13;
+</dc:description>
+        <dc:date>2014-03-25</dc:date>
+        <dc:type>Dataset</dc:type>
+        <dc:type>NonPeerReviewed</dc:type>
+        <dc:format>csv</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/80/1/Codebasis%20Komplett.xls</dc:identifier>
+        <dc:identifier>  Brhel, Manuel  (2014) Exploring Principles of User-Centered Agile Software Development: A Literature Review.  [Dataset]   </dc:identifier>
+        <dc:relation>https://madata.bib.uni-mannheim.de/80/</dc:relation></oai_dc:dc></metadata></record>
+    <record>
+    <header>
+      <identifier>oai:madata.bib.uni-mannheim.de:86</identifier>
+      <datestamp>2014-08-27T12:05:42Z</datestamp>
+      <setSpec>7375626A656374733D303034</setSpec>
+      <setSpec>74797065733D64617461736574</setSpec></header>
+    <metadata>
+      <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dc:title>Business Data Manager Experimental Evaluation</dc:title>
+        <dc:creator>Gass, Oliver</dc:creator>
+        <dc:subject>004 Computer science, internet</dc:subject>
+        <dc:description>Results of Experimental Evaluation Business Data Manager</dc:description>
+        <dc:date>2013-11</dc:date>
+        <dc:type>Dataset</dc:type>
+        <dc:type>NonPeerReviewed</dc:type>
+        <dc:format>text</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/86/1/DataSet_003-Feb2014-Reihenfolge.csv</dc:identifier>
+        <dc:identifier>  Gass, Oliver  (2013) Business Data Manager Experimental Evaluation.  [Dataset]   </dc:identifier>
+        <dc:relation>https://madata.bib.uni-mannheim.de/86/</dc:relation></oai_dc:dc></metadata></record>
+    <record>
+    <header>
+      <identifier>oai:madata.bib.uni-mannheim.de:87</identifier>
+      <datestamp>2014-07-16T15:55:53Z</datestamp>
+      <setSpec>7375626A656374733D303034</setSpec>
+      <setSpec>74797065733D64617461736574</setSpec></header>
+    <metadata>
+      <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dc:title>Weakly-supervised construction of a repository of iconic images</dc:title>
+        <dc:creator>Weiland, Lydia</dc:creator>
+        <dc:creator>Effelsberg, Wolfgang</dc:creator>
+        <dc:creator>Ponzetto, Simone Paolo</dc:creator>
+        <dc:subject>004 Computer science, internet</dc:subject>
+        <dc:description>We present a first attempt at semi-automatically harvesting a dataset of iconic images. Iconic images are depicting objects or scenes, which arouse associations to abstract topics. Our method starts with representative topic-evoking images from Wikipedia, which are labeled with relevant concepts and entities found in their associated captions. These are used to query an online image repository (i.e., Flickr), in order to further acquire additional examples of topic-specific iconic relations. To this end, we leverage a combination of visual similarity measures, image clustering and matching algorithms to acquire clusters of iconic images that are topically connected to the original seed images, while also allowing for various degrees of diversity. Our first results are promising in that they indicate the feasibility of the task and that we are able to build a first version of our resource with minimal supervision.</dc:description>
+        <dc:date>2014-06</dc:date>
+        <dc:type>Dataset</dc:type>
+        <dc:type>NonPeerReviewed</dc:type>
+        <dc:format>archive</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/87/1/IconicDataset.zip</dc:identifier>
+        <dc:identifier>  Weiland, Lydia and Effelsberg, Wolfgang and Ponzetto, Simone Paolo  (2014) Weakly-supervised construction of a repository of iconic images.  [Dataset]   </dc:identifier>
+        <dc:relation>https://madata.bib.uni-mannheim.de/87/</dc:relation></oai_dc:dc></metadata></record>
+    <record>
+    <header>
+      <identifier>oai:madata.bib.uni-mannheim.de:89</identifier>
+      <datestamp>2014-08-27T12:07:33Z</datestamp>
+      <setSpec>7375626A656374733D303034</setSpec>
+      <setSpec>74797065733D64617461736574</setSpec></header>
+    <metadata>
+      <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dc:title>Exploratory Interview Study with Financial Agents</dc:title>
+        <dc:creator>Gass, Oliver</dc:creator>
+        <dc:subject>004 Computer science, internet</dc:subject>
+        <dc:description>Individual IS use by insurance brokers</dc:description>
+        <dc:date>2011-10</dc:date>
+        <dc:type>Dataset</dc:type>
+        <dc:type>NonPeerReviewed</dc:type>
+        <dc:format>text</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/89/1/Exploratory%20Interview%20Study.docx</dc:identifier>
+        <dc:identifier>  Gass, Oliver  (2011) Exploratory Interview Study with Financial Agents.  [Dataset]   </dc:identifier>
+        <dc:relation>https://madata.bib.uni-mannheim.de/89/</dc:relation></oai_dc:dc></metadata></record>
+    <record>
+    <header>
+      <identifier>oai:madata.bib.uni-mannheim.de:90</identifier>
+      <datestamp>2014-09-18T14:04:22Z</datestamp>
+      <setSpec>7375626A656374733D303034</setSpec>
+      <setSpec>74797065733D64617461736574</setSpec></header>
+    <metadata>
+      <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dc:title>Multichannel commerce: A consumer perspective on the integration of physical and electronic channels&#13;
+</dc:title>
+        <dc:creator>Trenz, Manuel</dc:creator>
+        <dc:subject>004 Computer science, internet</dc:subject>
+        <dc:description>These files are the digital appendix to the dissertation "Multichannel commerce: A consumer perspective on the integration of physical and electronic channels"&#13;
+</dc:description>
+        <dc:date>2014-09-19</dc:date>
+        <dc:type>Dataset</dc:type>
+        <dc:type>NonPeerReviewed</dc:type>
+        <dc:format>other</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/90/1/study1_data.sav</dc:identifier>
+        <dc:format>other</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/90/2/study2_data.sav</dc:identifier>
+        <dc:identifier>  Trenz, Manuel  (2014) Multichannel commerce: A consumer perspective on the integration of physical and electronic channels.  [Dataset]   </dc:identifier>
+        <dc:relation>https://madata.bib.uni-mannheim.de/90/</dc:relation></oai_dc:dc></metadata></record>
+    <record>
+    <header>
+      <identifier>oai:madata.bib.uni-mannheim.de:93</identifier>
+      <datestamp>2014-09-25T09:25:59Z</datestamp>
+      <setSpec>7375626A656374733D363530</setSpec>
+      <setSpec>74797065733D64617461736574</setSpec></header>
+    <metadata>
+      <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dc:title>Exploratory Interview Study for Project Knowledge Reuse</dc:title>
+        <dc:creator>Schacht, Silvia</dc:creator>
+        <dc:subject>650 Management</dc:subject>
+        <dc:description>The data set contains the interview guideline, interview transcripts, the coding trees and the final presentation in the case company. </dc:description>
+        <dc:date>2014-09-25</dc:date>
+        <dc:type>Dataset</dc:type>
+        <dc:type>NonPeerReviewed</dc:type>
+        <dc:format>text</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/93/1/Exploratory_Interview_Study.pdf</dc:identifier>
+        <dc:identifier>  Schacht, Silvia  (2014) Exploratory Interview Study for Project Knowledge Reuse.  [Dataset]   </dc:identifier>
+        <dc:relation>https://madata.bib.uni-mannheim.de/93/</dc:relation></oai_dc:dc></metadata></record>
+    <record>
+    <header>
+      <identifier>oai:madata.bib.uni-mannheim.de:94</identifier>
+      <datestamp>2014-09-25T11:04:01Z</datestamp>
+      <setSpec>7375626A656374733D363530</setSpec>
+      <setSpec>74797065733D64617461736574</setSpec></header>
+    <metadata>
+      <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dc:title>Pre-Evaluation Results of Project KMS Artifact</dc:title>
+        <dc:creator>Schacht, Silvia</dc:creator>
+        <dc:subject>650 Management</dc:subject>
+        <dc:description>The document contains the protocols and results of the three workshops and the pilot study conducted in the pre-evaluation of the ADR project</dc:description>
+        <dc:date>2014-09-25</dc:date>
+        <dc:type>Dataset</dc:type>
+        <dc:type>NonPeerReviewed</dc:type>
+        <dc:format>text</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/94/2/Pre-Evaluation_Results.pdf</dc:identifier>
+        <dc:identifier>  Schacht, Silvia  (2014) Pre-Evaluation Results of Project KMS Artifact.  [Dataset]   </dc:identifier>
+        <dc:relation>https://madata.bib.uni-mannheim.de/94/</dc:relation></oai_dc:dc></metadata></record>
+    <record>
+    <header>
+      <identifier>oai:madata.bib.uni-mannheim.de:95</identifier>
+      <datestamp>2014-09-25T12:26:45Z</datestamp>
+      <setSpec>7375626A656374733D363530</setSpec>
+      <setSpec>74797065733D64617461736574</setSpec></header>
+    <metadata>
+      <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dc:title>Ex Post Evaluation of Project KMS</dc:title>
+        <dc:creator>Schacht, Silvia</dc:creator>
+        <dc:subject>650 Management</dc:subject>
+        <dc:description>The document contains all data related to the ex post evaluation including the surveys, raw data and the data analysis results.</dc:description>
+        <dc:date>2014-09-25</dc:date>
+        <dc:type>Dataset</dc:type>
+        <dc:type>NonPeerReviewed</dc:type>
+        <dc:format>text</dc:format>
+        <dc:identifier>https://madata.bib.uni-mannheim.de/95/1/Ex-Post_Evaluation_MADATA_Upload.pdf</dc:identifier>
+        <dc:identifier>  Schacht, Silvia  (2014) Ex Post Evaluation of Project KMS.  [Dataset]   </dc:identifier>
+        <dc:relation>https://madata.bib.uni-mannheim.de/95/</dc:relation></oai_dc:dc></metadata></record>
+  </ListRecords>
+</OAI-PMH>
