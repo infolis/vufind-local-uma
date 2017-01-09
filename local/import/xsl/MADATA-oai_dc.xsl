@@ -22,6 +22,8 @@
 
   <xsl:template match="oai:record">
     <doc>
+
+	<field name='collection'>MADATA</field>
       <xsl:for-each select=".//oai:identifier[1]">
         <field name="id">
           <xsl:value-of select="."/>
@@ -59,9 +61,9 @@
         </field>
       </xsl:for-each>	
 
-      <!-- <xsl:for-each se[1]lect=".//dc:description"> -->
-      <!--   <field name="d[1]escription"> -->
-      <!--     <xsl:value-o[1]f select="."/> -->
+      <!-- <xsl:for-each select=".//dc:description"> -->
+      <!--   <field name="description"> -->
+      <!--     <xsl:value-of select="."/> -->
       <!--   </field> -->
       <!-- </xsl:for-each> -->
 
@@ -73,7 +75,7 @@
           <!--   </datafield> -->
         <!-- </xsl:for-each> -->
 
-      <xsl:for-each select=".//dc:identifier[not(position() = last())]">
+      <xsl:for-each select=".//dc:identifier[substring(.,1,4) = 'http']">
         <field name="url">
           <xsl:value-of select="."/>
         </field>

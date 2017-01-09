@@ -36,8 +36,23 @@
             </field>
           </xsl:when>
           <xsl:otherwise>
+            <!-- Combination of ID and Title without alphanumerics -->
             <field name="id">
-              <xsl:value-of select="concat('madoc-non-urn-', substring-after(//ddb:identifier[@ddb:type='URL'][1], 'http://ub-madoc.bib.uni-mannheim.de/'))"/>
+              <xsl:value-of select="
+                concat(
+                  concat('madoc-',
+                    substring-after(
+                      //ddb:identifier[@ddb:type='URL'][1],
+                      'http://ub-madoc.bib.uni-mannheim.de/')),
+                  translate(
+                    //dc:title[1]/text(),
+                    translate(
+                      //dc:title[1]/text(),
+                      'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789', 
+                      ''),
+                    '_'))
+                " />
+              <!-- <xsl:value-of select="concat('madoc-non-urn-', substring-after(//ddb:identifier[@ddb:type='URL'][1], 'http://ub-madoc.bib.uni-mannheim.de/'))"/> -->
             </field>
           </xsl:otherwise>
         </xsl:choose>
